@@ -7,7 +7,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # Configure the Google Generative AI API
-genai.configure(api_key='AIzaSyBfv3Jx30PKhyBvet479WSGuwWVkq-_66Y')
+genai.configure(api_key=)
 
 # Initialize the GenerativeModel
 model = genai.GenerativeModel("gemini-1.5-pro")
